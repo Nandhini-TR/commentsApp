@@ -1,0 +1,89 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.comments-body-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.input-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  font-size: 18px;
+}
+
+.input {
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #475569;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  max-width: 320px;
+  flex-grow: 1;
+  margin-top: 10px;
+}
+
+.text-box {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 200px;
+  max-width: 320px;
+  flex-grow: 1;
+  margin-top: 10px;
+  border: 1px solid #475569;
+}
+
+.comment-button {
+  height: 40px;
+  width: 140px;
+  color: #ffffff;
+  background-color: #0284c7;
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.comments-image {
+  height: 300px;
+  width: 40%;
+}
+
+.seperator {
+  margin: 5px;
+  border: 1px solid #94a3b8;
+}
+
+.count-element{
+  height: 10px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #0284c7;
+  color: #ffffff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
